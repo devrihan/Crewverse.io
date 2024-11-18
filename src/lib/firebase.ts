@@ -3,13 +3,12 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA4452a1FVh9DyIpyqrRJJ97bYeIk9GeWY",
-  authDomain: "museai-c2df3.firebaseapp.com",
-  projectId: "museai-c2df3",
-  storageBucket: "museai-c2df3.firebasestorage.app",
-  messagingSenderId: "582910115032",
-  appId: "1:582910115032:web:216856bd74811891c36bad",
-  measurementId: "G-SVRMPPL30F"
+  apiKey: process.env.FIREBASE_API_KEY || "",
+  authDomain: process.env.FIREBASE_AUTH_DOMAIN || "",
+  projectId: process.env.FIREBASE_PROJECT_ID || "",
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET || "",
+  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID || "",
+  appId: process.env.FIREBASE_APP_ID || "",
 };
 
 const app = initializeApp(firebaseConfig);
