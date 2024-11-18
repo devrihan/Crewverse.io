@@ -28,25 +28,28 @@ MuseAI is a cutting-edge platform designed to empower creators, developers, and 
 
 ### Installation
 1. Clone the repository:
+   
    ```bash
    git clone [https://github.com/your-username/museai.git](https://github.com/your-username/museai.git)
    cd museai
-2. Install dependencies:
+3. Install dependencies:
     ```bash 
     npm install
     # or
     yarn install
 
-3. Set up environment variables: Create a .env file in the root directory and add the following keys with your respective information:
+4. Set up environment variables: Create a .env file in the root directory and add the following keys with your respective information:
    ```bash
-    FIREBASE_API_KEY=
-    FIREBASE_AUTH_DOMAIN=
-    FIREBASE_PROJECT_ID=
-    FIREBASE_STORAGE_BUCKET=
-    FIREBASE_MESSAGING_SENDER_ID=
-    FIREBASE_APP_ID=   
-    GEMINI_API_KEY= (optional)
-    GEMINI_SECRET_KEY= (optional)
+   VITE_FIREBASE_API_KEY=""
+   VITE_FIREBASE_AUTH_DOMAIN=""
+   VITE_FIREBASE_PROJECT_ID=""
+   VITE_FIREBASE_STORAGE_BUCKET=""
+   VITE_FIREBASE_MESSAGING_SENDER_ID=""
+   VITE_FIREBASE_APP_ID=""
+
+# Gemini API Key (Example, replace as needed)
+VITE_GEMINI_API_KEY="AIzaSyBCHQk5McklF4iRO02DdxSUxUkeN5Oiz34"
+
   
 4. Start the development server: ```npm run dev```
   
