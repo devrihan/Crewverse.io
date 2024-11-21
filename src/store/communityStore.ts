@@ -10,6 +10,7 @@ interface Post {
   createdAt: string;
   likes: number;
   comments: Comment[];
+  tag:string;
 }
 
 interface Comment {
