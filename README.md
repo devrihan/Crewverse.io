@@ -48,7 +48,7 @@ MuseAI is a cutting-edge platform designed to empower creators, developers, and 
    VITE_FIREBASE_APP_ID=""
 
 # Gemini API Key (Example, replace as needed)
-VITE_GEMINI_API_KEY="AIzaSyBCHQk5McklF4iRO02DdxSUxUkeN5Oiz34"
+VITE_GEMINI_API_KEY=""
 
   
 4. Start the development server: ```npm run dev```
