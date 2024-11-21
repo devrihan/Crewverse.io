@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="footer bg-gray-900 text-white py-8 mt-8 w-full">
       <div className="container mx-auto text-center">
-        <p className="text-lg mb-4">&copy; 2024 Your Company Name. All rights reserved.</p>
+        <p className="text-lg mb-4">&copy; 2024 Crewverse.io. All rights reserved.</p>
         <div className="mt-4 flex justify-center gap-6">
           <a 
             href="/about" 
@@ -26,7 +26,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="mt-6 text-gray-400 text-sm">
-          <p>Designed with 💚 by Your Team</p>
+          <p>Designed with 💚 by @devrihan</p>
         </div>
       </div>
     </div>
