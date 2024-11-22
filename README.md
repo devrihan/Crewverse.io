@@ -71,7 +71,7 @@ MuseAI is ready for deployment on platforms like Vercel or Netlify.
 ## Contributing
 We welcome contributions from the open-source community!
 
-###How to Contribute
+### How to Contribute
 * Fork the repository.
 * Create a new branch:
 ```git checkout -b feature/your-feature-name```
@@ -87,4 +87,4 @@ We welcome contributions from the open-source community!
 * Reach out via email at rihanworks@gmail.com for further assistance.
 
 ## Collaboration Opportunities
-MuseAI is an open-source project, and we’re always looking for collaborators to help take it to the next level. Whether you're a developer, designer, or AI enthusiast, there’s a place for you here. Let’s build the future of content creation together!
+Crewverse.io is an open-source project, and we’re always looking for collaborators to help take it to the next level. Whether you're a developer, designer, or AI enthusiast, there’s a place for you here. Let’s build the future of content creation together!
